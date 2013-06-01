@@ -1,0 +1,31 @@
+
+#main {
+    background-color: #555;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    padding: 10px;
+    padding-right: 200px;
+    width: 100%;
+}
+
+#code {
+    background-color: #eee;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    font-family: monospace;
+    height: 100%;
+    outline: none;
+    overflow-y: auto;
+    resize: none;
+    width: 100%;
+    -webkit-transition: background-color 0.1s ease;
+    -moz-transition: background-color 0.1s ease;
+}
+
+#code:focus {
+    background-color: #fff;
+}

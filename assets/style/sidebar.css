@@ -1,0 +1,36 @@
+
+#sidebar {
+    color: #ddd;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-shadow: 0 1px 1px #444;
+    top: 0;
+    width: 200px;
+}
+
+#sidebar li {
+    padding: 0.5em 1em;
+}
+
+#sidebar h1 {
+    font-family: "Roboto Light";
+    font-size: 170%;
+    margin: 0 0.5em;
+    text-transform: lowercase;
+}
+
+#sidebar .link {
+    transition: background-color 0.1s ease, color 0.1s ease;
+}
+
+#sidebar .link:hover {
+    background-color: #666;
+    cursor: pointer;
+}
+
+#sidebar .link:active {
+    background-color: #444;
+    color: #fff;
+}
